@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Redirect",
+    "version": "1.0",
+    "description": "Redirection d'une page souhaitée vers une autre",
+    "permissions": [
+        "scripting",
+        "activeTab"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
