@@ -1,11 +1,24 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redirect</title>
+  <meta charset="UTF-8">
+  <title>Redirecteur de Liens</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+  <h1>Redirections</h1>
+  <div id="toggle-container">
+    <label>
+      <input type="checkbox" id="toggle-extension">
+      Extension activée
+    </label>
+  </div>
+  <form id="add-rule-form">
+    <input type="url" id="source-url" placeholder="URL source" required>
+    <input type="url" id="destination-url" placeholder="URL destination" required>
+    <button type="submit">Ajouter</button>
+  </form>
+  <ul id="rules-list"></ul>
+  <script src="popup.js"></script>
 </body>
 </html>

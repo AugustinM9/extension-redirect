@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  min-width: 340px;
+  margin: 14px;
+}
+h1 {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+#toggle-container {
+  margin-bottom: 12px;
+}
+#add-rule-form {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 12px;
+}
+#source-url, #destination-url {
+  flex: 1;
+  padding: 4px;
+  font-size: 14px;
+}
+#add-rule-form button {
+  padding: 4px 10px;
+}
+#rules-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#rules-list li {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 0;
+}
+.rule-source {
+  color: #333;
+  font-weight: bold;
+}
+.rule-dest {
+  color: #0066cc;
+}
+.delete-btn {
+  background: none;
+  border: none;
+  color: #d00;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: auto;
+}
